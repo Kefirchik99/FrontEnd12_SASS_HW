@@ -1,0 +1,4 @@
+$main-color: rgb(241, 194, 194);
+$secondary-color: #e6e6fa;
+$dark-color: rgba(109, 30, 30, 0.747);
+$main-font: 'Times New Roman', Times, serif;
