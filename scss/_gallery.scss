@@ -1,0 +1,25 @@
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 15px;
+    width: auto;
+
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}

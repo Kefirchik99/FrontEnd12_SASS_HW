@@ -1,4 +1,6 @@
 @import 'config';
+@import 'buttons';
+@import 'gallery';
 
 
 * {
@@ -7,26 +9,67 @@
 }
 
 body {
+    background-color: $main-color;
     font-family: $main-font;
 }
 
 .showcase {
+    background-color: $secondary-color;
+    color: black;
     height: 600px;
     nav {
-        background-color: $secondary-color;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-
+        justify-content: space-between;
+        background-color: aliceblue;
+    
+ 
     }
+
     ul {
         display: flex;
-        list-style-type: none;  
-        li {
-            margin: 15px;
-        }  
-    }
+        list-style: none;
+        
 
+        li {
+            margin: 20px;   
+        }
+        a {
+            text-decoration: none;
+            color: $dark-color;
+            font-weight: bold;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            
+        }
+        a:hover {
+            color: blanchedalmond;
+        }
+
+    }
+    &-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        h1 {
+            font-size: 55px;
+            line-height: 1.2;
+        }
+    }
+    p {
+        margin: 20px 0;
+        font-family: $main-font;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 45px;
+        font-weight: bold;
+        color: $dark-color;
+    }
 }
 
 .container {
@@ -36,7 +79,12 @@ body {
 
 }
 
-.logo {
-    background-color: $main-color;
+h3 {
     text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-us {
+    background-color: aliceblue;
 }

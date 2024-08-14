@@ -1,17 +1,132 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'config';
- *   |         ^^^^^^^^
- *   '
- *   scss\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'config';\d\a   \2502          ^^^^^^^^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 4px;
 }
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: rgb(202, 142, 120);
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: rgb(202, 142, 120);
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: burlywood;
+}
+
+.btn-secondary:hover {
+  background-color: burlywood;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  padding: 15px;
+  width: auto;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(245, 219, 219);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.showcase {
+  background-color: #adadd3;
+  color: black;
+  height: 600px;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+.showcase ul {
+  display: flex;
+  list-style: none;
+}
+.showcase ul li {
+  margin: 20px;
+}
+.showcase ul a {
+  text-decoration: none;
+  color: rgba(109, 30, 30, 0.911);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.showcase ul a:hover {
+  color: blanchedalmond;
+}
+.showcase-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-content h1 {
+  font-size: 55px;
+  line-height: 1.2;
+}
+.showcase p {
+  margin: 20px 0;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.showcase h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgba(109, 30, 30, 0.911);
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-us {
+  background-color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */
