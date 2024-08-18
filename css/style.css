@@ -63,70 +63,32 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-.showcase {
-  background-color: #adadd3;
-  color: black;
-  height: 510px;
+.container {
+  max-width: 1100px;
+  padding: 10px 30px;
+  margin: auto;
 }
-.showcase nav {
+.container nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(245, 219, 219);
 }
-.showcase ul {
+.container ul {
   display: flex;
   list-style: none;
 }
-.showcase ul li {
+.container ul li {
   margin: 20px;
 }
-.showcase ul a {
+.container ul a {
   text-decoration: none;
   color: rgba(109, 30, 30, 0.911);
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.showcase ul a:hover {
+.container ul a:hover {
   color: blanchedalmond;
-}
-.showcase-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.showcase-content h1 {
-  font-size: 55px;
-  line-height: 1.2;
-}
-.showcase p {
-  margin: 20px 0;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 30px;
-}
-.showcase h2 {
-  font-size: 45px;
-  font-weight: bold;
-  color: rgba(109, 30, 30, 0.911);
-}
-
-.container {
-  max-width: 1100px;
-  padding: 0 30px;
-  margin: auto;
-}
-
-h3 {
-  text-align: center;
-  font-size: x-large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.about-us {
-  background-color: rgb(241, 245, 243);
 }
 
 /*# sourceMappingURL=style.css.map */
