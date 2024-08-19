@@ -61,6 +61,13 @@
 body {
   background-color: rgb(245, 219, 219);
   font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+}
+
+.showcase {
+  background-color: #adadd3;
+  color: black;
+  height: 510px;
 }
 
 .container {
@@ -72,7 +79,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(245, 219, 219);
+  background-color: lavender;
 }
 .container ul {
   display: flex;
@@ -88,7 +95,52 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container ul a:hover {
-  color: blanchedalmond;
+  color: rgb(202, 142, 120);
+}
+.container .logo {
+  text-decoration: underline;
+}
+
+.showcase-content h2 {
+  padding: 15px;
+  text-align: center;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 10 px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer-style {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+.footer-style footer {
+  width: 100%;
+  display: block;
+}
+.footer-style ul {
+  display: flex;
+  list-style: none;
+}
+.footer-style ul li {
+  margin: 20px;
+}
+.footer-style ul a {
+  text-decoration: none;
+  color: rgba(109, 30, 30, 0.911);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-style ul a:hover {
+  color: rgb(202, 142, 120);
 }
 
 /*# sourceMappingURL=style.css.map */
