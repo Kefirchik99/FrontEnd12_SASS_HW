@@ -1,6 +1,7 @@
 @import 'config';
 @import 'buttons';
 @import 'gallery';
+@import 'responsivness';
 
 
 * {
@@ -67,14 +68,17 @@ body {
 }
 
 .showcase-content {
-    
-    .btn-primary, .btn-secondary {
-        display: inline-block;
-        padding: 20px;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     h2 {
         padding: 15px;
         text-align: center;
+    }
+    p {
+        font-size: 1.6rem;
+        font-weight: 500;
     }
 }
 
@@ -116,4 +120,13 @@ body {
     h3 {
         text-align: center;
         padding: 15px;
+        background-color: $hover-color;
     }
+
+    .buttons {
+        
+            display: inline-block;
+            padding: 20px;
+        
+    }
+
